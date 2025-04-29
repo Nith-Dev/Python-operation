@@ -1,0 +1,1 @@
+# Type Casting = the process of converting datatype to another datatype
