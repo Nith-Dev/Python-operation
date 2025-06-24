@@ -1,35 +1,34 @@
-# IF Statement
-age = int(input("Input your age:"))
-if(age >= 18):{
-    print('You are eligible')
-}
-
-# If and Else Statement
-grade = int(input("Check your score"))
-if grade >= 50:
-    print('You Pass the exam')
+# If and else Statement
+Age = 16
+if Age > 16:
+    print("You are  eligible")
 else:
-    print("Study more harder") 
+    print("You are not")
 
-# if-elif-else Statement
-gradeCheck = int(input("Enter your score to check your grade:"))
-if gradeCheck < 50:
-    print("You fail the class")
-elif gradeCheck < 70:
-    print("You get the medimum score")
-elif gradeCheck < 85 :
-    print("You pass the exam with excellent score")
+#If elif and else
+Age = 20
+Score = 60
+
+if Age >= 20 and Score >= 60:
+    print("You are passed the exam")
+elif Age > 20 and Score < 60:
+    print("You failed the exam ")
 else:
-    print("Study harder")
+    print("Check the result")
 
-# Nested if Statement
-Citizen = True
-age = 26
 
-if age >= 20:
-    if Citizen == True:
-        print("You are eligible to vote")
-    else:
-        print|('You must be citizen first')
-else:
-        print('You are too young to vote')
+# Ternary Operator
+Score = 60
+Reuslt = "Pass" if Score >= 50 else "fail"
+print(Reuslt)
+
+# Switch Statement
+
+day = "Monday"
+match day: 
+    case "Monday":
+        print("Monday")
+    case "Tuesday":
+        print("Tuesday")
+    case _:
+        print("The rest of the week")
