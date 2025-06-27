@@ -1,3 +1,3 @@
 def FindSquareNumber(N):
     return N * N
-print(FindSquareNumber(10))
+print(FindSquareNumber(10)) 
